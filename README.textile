@@ -1,6 +1,6 @@
 h1. administrate_me backup manager
 
-This gem is a desert based extension to administrate_me to handle Amazon S3 backups created with the backup_fu plugin.
+This plugin is a desert based extension to administrate_me to handle Amazon S3 backups created with the backup_fu plugin.
 
 You just need to create your backups "using backup_fu":http://shanti.railsblog.com/backup-fu-makes-amazon-s3-backups-redonkulous as usual. This gems gives you the ability to have a "backups" module available on your app to list and download the already created backups.
 
