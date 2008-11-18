@@ -1,0 +1,8 @@
+<%= list_builder_for @objects, :report => true do |list|
+      list.nombre_archivo
+      list.fecha
+      list.html do |object|
+        link_to object.nombre_archivo, backup_path(object.encoded_nombre_archivo)
+      end
+    end
+%>
